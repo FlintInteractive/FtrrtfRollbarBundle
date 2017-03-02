@@ -1,6 +1,6 @@
 {
-    "name": "ftrrtf/rollbar-bundle",
-    "description": "Symfony2 Bundle for rollbar.com",
+    "name": "flintinteractive/rollbar-bundle",
+    "description": "Symfony3 Bundle for rollbar.com - forked from ftrrtf/rollbar-bundle (https://github.com/ftrrtf/FtrrtfRollbarBundle)",
     "keywords": ["rollbar", "errors", "symfony2"],
     "license": "MIT",
     "type": "symfony-bundle",
@@ -12,9 +12,9 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "symfony/framework-bundle": "^2.7.3|^3.0",
-        "symfony/security-bundle": "^2.7.3|^3.0",
-        "symfony/expression-language": "^2.7.3|^3.0",
+        "symfony/framework-bundle": "^3.0",
+        "symfony/security-bundle": "^3.0",
+        "symfony/expression-language": "^3.0",
         "ftrrtf/rollbar-notifier": "2.0.0-alpha1"
     },
     "require-dev": {
